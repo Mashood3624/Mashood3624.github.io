@@ -3,19 +3,20 @@ menu:
   Home: /
   Archives: /archives
   About: /about
+  Life: /life
 rss: /atom.xml
 
 home:
   style: default           # default, detail
 
-favicon:                   # Path to the custom favicon (e.g. "/favicon.png" if your favicon file is located at /source/favicon.png)
+favicon:               # Path to the custom favicon (e.g. "/favicon.png" if your favicon file is located at /source/favicon.png)
 
 # Banner
 banner:
-  enable: false            # Display banner
-  url: /assets/banner.png
+  enable: true            # Display banner
+  url: /banner.jpg
   position: center         # Specifies the alignment of the image, see the "object-position" property in CSS
-  onAllPages: true         # Display banner on all pages
+  onAllPages: false         # Display banner on all pages
 
 # Appearence
 hue: 270                   # The hue of the theme color (e.g. red: 0, orange: 60, blue: 260, purple: 300, pink: 345)
@@ -38,8 +39,8 @@ categories:
   max_depth:              # Maximum depth of categories displayed in the widget (null for unlimited)
 
 # Personal info
-avatar: 
-author: Your Name
+avatar: /profile.jpg  
+author: Mashood Mohsan
 subtitle: This is the subtitle
 links:
   - name: Twitter
