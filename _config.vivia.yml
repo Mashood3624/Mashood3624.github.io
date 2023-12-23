@@ -14,7 +14,7 @@ favicon:               # Path to the custom favicon (e.g. "/favicon.png" if your
 # Banner
 banner:
   enable: true            # Display banner
-  url: /banner.jpg
+  url: /Picture1.png
   position: center         # Specifies the alignment of the image, see the "object-position" property in CSS
   onAllPages: false         # Display banner on all pages
 
@@ -41,7 +41,7 @@ categories:
 # Personal info
 avatar: /profile.jpg  
 author: Mashood Mohsan
-subtitle: This is the subtitle
+subtitle: <i>An idea transcended into life </i>
 links:
   - name: Twitter
     icon: fa-brands fa-twitter      # Find icon codes at https://fontawesome.com/search
